@@ -26,6 +26,7 @@ window.title('YoutubeDownload')
 window.geometry('350x380')
 window.config(bg='#15171a')
 window.resizable(width=False,height=False)
+window.iconphoto(False,PhotoImage(file='youtube.png'))
 
 # LABEL-YOUTUBE 
 labelYoutube = Label(window,width=20,height=1,text='YoutubeDownloader',bg='#a80f0f',font='Arial 18',fg='white')
