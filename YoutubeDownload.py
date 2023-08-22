@@ -2,7 +2,7 @@ from tkinter.ttk import *
 from tkinter import *
 from pytube import YouTube
 
-# FUNCTION
+# FUNCTION-ButtonSee
 def buttonSee():
     link = inputURL.get()
     yt = YouTube(link)
@@ -52,7 +52,7 @@ select.place(x=131,y=107)
 labelInfo = Label(window,width=20,height=1,text='INFORMAÇÃO',bg='#a80f0f',font='Arial 18',fg='white')
 labelInfo.place(x=30,y=170)
 
-# BUTTON SEE
+# BUTTON-SEE
 see = Button(window,width=3,height=1,command=buttonSee,text='Ver',relief=RAISED)
 see.place(x=290,y=89)
 
