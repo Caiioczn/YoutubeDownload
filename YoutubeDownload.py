@@ -29,4 +29,8 @@ select['values'] = ('Video','MP4')
 select.current(0)
 select.place(x=131,y=107)
 
+# STATUS
+labelInfo = Label(window,width=20,height=1,text='INFORMAÇÃO',bg='#a80f0f',font='Arial 18',fg='white')
+labelInfo.place(x=30,y=170)
+
 window.mainloop()
