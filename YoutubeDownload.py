@@ -10,15 +10,15 @@ def buttonSee():
     titulo = yt.title
     views = yt.views
     
-    labelTitulo1 = Label(window,width=6,height=2,text='Titulo:',bg='#15171a',fg='white',font=('Aial 10 '))
-    labelTitulo1.place(x=30,y=210)
+    labelTitulo1 = Label(window,width=6,height=2,text='Titulo',bg='#15171a',fg='white',font=('Aial 10 '))
+    labelTitulo1.place(x=140,y=210)
     labelTitulo2 = Label(window,width=50,height=1,text=titulo,bg='#15171a',anchor=SW,fg='white',font=('Aial 10 '))
-    labelTitulo2.place(x=75,y=218)
+    labelTitulo2.place(x=18,y=238)
     
     labelViews1 = Label(window,width=6,height=2,text='Views:',bg='#15171a',fg='white',font=('Aial 10 '))
-    labelViews1.place(x=30,y=240)
+    labelViews1.place(x=15,y=260)
     labelViews2 = Label(window,width=50,height=1,text=views,bg='#15171a',anchor=SW,fg='white',font=('Aial 10 '))
-    labelViews2.place(x=75,y=248)
+    labelViews2.place(x=65,y=268)
 
 
 #FUNCTION-ButtonDonwload
@@ -73,6 +73,6 @@ see.place(x=290,y=89)
 
 # BUTTON-DOWNLOAD
 download = Button(window,width=10,height=1,command=buttonDownload,text='Download',relief=RAISED)
-download.place(x=125,y=280)
+download.place(x=125,y=320)
 
 window.mainloop()
