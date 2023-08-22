@@ -2,6 +2,25 @@ from tkinter.ttk import *
 from tkinter import *
 from pytube import YouTube
 
+# FUNCTION
+def buttonSee():
+    link = inputURL.get()
+    yt = YouTube(link)
+    
+    titulo = yt.title
+    views = yt.views
+    
+    labelTitulo1 = Label(window,width=6,height=2,text='Titulo:',bg='#15171a',fg='white',font=('Aial 10 '))
+    labelTitulo1.place(x=30,y=210)
+    labelTitulo2 = Label(window,width=50,height=1,text=titulo,bg='#15171a',anchor=SW,fg='white',font=('Aial 10 '))
+    labelTitulo2.place(x=75,y=218)
+    
+    labelViews1 = Label(window,width=6,height=2,text='Views:',bg='#15171a',fg='white',font=('Aial 10 '))
+    labelViews1.place(x=30,y=240)
+    labelViews2 = Label(window,width=50,height=1,text=views,bg='#15171a',anchor=SW,fg='white',font=('Aial 10 '))
+    labelViews2.place(x=75,y=248)
+
+
 window = Tk()
 window.title('YoutubeDownload')
 window.geometry('350x380')
