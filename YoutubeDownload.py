@@ -57,4 +57,8 @@ labelInfo.place(x=30,y=170)
 see = Button(window,width=3,height=1,command=buttonSee,text='Ver',relief=RAISED)
 see.place(x=290,y=89)
 
+# BUTTON-DOWNLOAD
+download = Button(window,width=10,height=1,command=buttonDownload,text='Download',relief=RAISED)
+download.place(x=125,y=280)
+
 window.mainloop()
