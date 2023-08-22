@@ -21,6 +21,20 @@ def buttonSee():
     labelViews2.place(x=75,y=248)
 
 
+#FUNCTION-ButtonDonwload
+def buttonDownload():
+    url = inputURL.get()
+    selectOP = select.get()
+    yt = YouTube(url,use_oauth=True,allow_oauth_cache=True)
+    
+    
+    if selectOP == 'Video':
+        ys = yt.streams.get_highest_resolution()
+        ys.download()
+    else:
+        ys = yt.streams.get_audio_only()
+        ys.download()
+
 window = Tk()
 window.title('YoutubeDownload')
 window.geometry('350x380')
