@@ -3,6 +3,8 @@
 Utilizando Python, juntamente com as bibliotecas Tkinter(interface grafica) e Pytube(pegar dados do YouTube)
 temos um script para baixar videos ou apenas o audio do video.
 
+Obs: Pode dar erro caso o video que voce quer baixar tenha restriçao de idade 
+
 Feature 1 - Combobox format
 - Adiciona uma combobox com os valores
 ['Video','MP3'], para selecionar, assim poderá 
