@@ -58,7 +58,7 @@ inputURL.place(x=90,y=73)
 labelCombo = Label(window,width=6,height=1,text='Formato:',bg='#15171a',fg='white',font=('Aial 10 '))
 labelCombo.place(x=70,y=107)
 select = Combobox(window)
-select['values'] = ('Video','MP4')
+select['values'] = ('Video','MP3')
 # DEFAULT VALUE
 select.current(0)
 select.place(x=131,y=107)
