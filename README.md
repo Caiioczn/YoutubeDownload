@@ -5,7 +5,7 @@ temos um script para baixar videos ou apenas o audio do video.
 
 Feature 1 - Combobox format
 - Adiciona uma combobox com os valores
-['Video','Musica'], para selecionar, assim poderá 
+['Video','MP3'], para selecionar, assim poderá 
 escolher o tipo de arquivo
 
 Feature 2 - Button See
