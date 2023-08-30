@@ -25,7 +25,7 @@ def buttonSee():
 def buttonDownload():
     url = inputURL.get()
     selectOP = select.get()
-    yt = YouTube(url,use_oauth=True,allow_oauth_cache=True)
+    yt = YouTube(url,use_oauth=False,allow_oauth_cache=False)
     
     
     if selectOP == 'Video':
