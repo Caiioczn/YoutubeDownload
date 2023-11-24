@@ -22,11 +22,11 @@ ira aparecer no mesmo diretorio em que esta
 o arquivo .py
 
 # Tutorial para conectar ao banco de dados
-Para se conectar ao banco de dados local 
+1 - Para se conectar ao banco de dados local 
 utilize algum SGDB de sua preferencia (Sistema de gerenciamento de banco de dados)
 podendo ser DBeave,pgAdmin, entre outros.
 
-## Credenciais 
+2 - ## Credenciais 
 ```bash
   HOST: localhost
   Porta: 5432
@@ -35,7 +35,7 @@ podendo ser DBeave,pgAdmin, entre outros.
   Senha:Kaju
 ```
 
-Abra o docker desktop, verifice se o container postgress esta rodando
+3 - Abra o docker desktop, verifice se o container postgress esta rodando
 após isso tente conectar ao banco de dados. O banco de dados estará vazio.
 
 ![dwmb](https://github.com/CaioSantdev/YoutubeDownload/assets/73500497/0af5a680-e66e-4d86-8f24-14af9b64c80c)
@@ -46,15 +46,15 @@ após isso tente conectar ao banco de dados. O banco de dados estará vazio.
 Caso você tenha o postgres instalado na sua maniquina ele estará tambem
 usando a porta 5232, resultando em conflito caso tente se conectar.
 
-abre seu cmd como administrador e rode o comando: 
+4 - abre seu cmd como administrador e rode o comando: 
 ```bash
   netstat -ano | findstr :5432
 ```
 ![dwmbcmd](https://github.com/CaioSantdev/YoutubeDownload/assets/73500497/1e5b419f-f6f1-40ba-aed2-4291e273e38f)
 
-"mate" o processo com os dois endereços da ulima coluna
+5 - "mate" o processo com os dois endereços da ulima coluna
 
-execute os seguintes comando: 
+6 - execute os seguintes comando: 
 ```bash
   taskkill /PID **** /F 
 ```
