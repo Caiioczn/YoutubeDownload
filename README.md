@@ -24,7 +24,7 @@ o arquivo .py
 # Tutorial para conectar ao banco de dados
 Para se conectar ao banco de dados local 
 utilize algum SGDB de sua preferencia (Sistema de gerenciamento de banco de dados)
-podendo ser DBeave,PGadmin, entre outros.
+podendo ser DBeave,pgAdmin, entre outros.
 
 ## Credenciais 
 ```bash
