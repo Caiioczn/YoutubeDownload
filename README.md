@@ -50,6 +50,8 @@ abre seu cmd como administrador e rode o comando:
 ```bash
   netstat -ano | findstr :5432
 ```
+![dwmbcmd](https://github.com/CaioSantdev/YoutubeDownload/assets/73500497/1e5b419f-f6f1-40ba-aed2-4291e273e38f)
+
 "mate" o processo com os dois endereços da ulima coluna
 
 execute os seguintes comando: 
